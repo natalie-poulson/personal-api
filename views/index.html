@@ -14,14 +14,22 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
     <!-- APPLICATION SCRIPTS -->
-    <script src="/scripts/app.js"></script>
+    <script src="scripts/app.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
-          <h1>Under Construction</h1>
-          <h4><a href="/api">Read My API Documentation</a></h4>
+          <form>
+            <input id="name" type="text" name="name" placeholder="Name">
+            <input id="address" type="text" name="address" placeholder="Address">
+            <input id="yearOpened" type="text" name="yearOpened" placeholder="Year Established">
+            <input type="submit" value="Submit"> 
+          </form>
+          <h1>Legacy San Francisco Bars and Restaurants</h1>
+            <p>San Francisco Heritage's list of businesses that "have achieved longevity of 40 years or more, posses distinctive architecture or interior design, and/or contribute to a sense of history in the surrounding neighborhood."</p>
+            <h4><a href="/api">Read My API Documentation</a></h4>
+            <div id="legacyTarget"></div>
         </div>
       </div>
     </div>
